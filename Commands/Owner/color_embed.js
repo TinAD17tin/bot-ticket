@@ -10,7 +10,7 @@ module.exports = {
     .addStringOption((option) =>
       option
         .setName("color")
-        .setDescription("La couelur de l'embed.")
+        .setDescription("La couleur de l'embed.")
         .setRequired(true)
         .addChoices(
           { name: "aqua", value: "#00FFFF" },
